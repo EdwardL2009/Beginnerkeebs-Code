@@ -21,8 +21,33 @@
                 font-family: Lato, sans-serif;
                 line-height: 1.5;
             }
+            body {
+                background-color: #222222;
+            }
+            .sidenav {
+                width: 200px;
+                height: 100%;
+                background-color: #222222;
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                padding-left: 10px;
+                padding-top: 100px;
+                z-index: 1;
+                color:#222222;
+                overflow: auto
+            }
+            .main {
+                margin-left: 250px;
+            }
+            .banner {
+                margin-left: 200px;
+            }
+            .header {
+                margin-left: 250px;
+            }
         </style>
-        <header>
+        <div class="banner">
         <a href="index.html">
             <img src="BeginnerkeebsBanner.png" alt="Beginnerkeebs Banner">
             <style>
@@ -32,10 +57,9 @@
             }
             </style>
         </a>
-    </header>
+        </div>
     </head>
-    <body>
-        
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div class="sidenav">
         <a href="index.html" style="color:#FFFFFF">Home</a>
@@ -62,13 +86,15 @@
     </div>
 
     <hr/>
-    <wrapper>
-    <h1 style="color:#FFFFFF">This video provides further insight into what we do.</h1>
-    </wrapper>
+    <div class="header">
+        <h1 style="color:#FFFFFF">This video provides further insight into what we do.</h1>
+    </div>
     <hr/>
-    <br/>
+
+    <div class="main">
+        <br/>
     
-        <iframe width="857" height="482" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" title="Rick Astley - Never Gonna Give You Up (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="857" height="482" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" title="Rick Astley - Never Gonna Give You Up (Official Music            Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br/>
         <hr/>
         <h4 style="color:#FFFFFF">Credits</h4>
@@ -76,5 +102,5 @@
             KBD67 Lite R4 Case from KBDFans Website
             Size Guide from Reddit, credit to u/fizzy_me
         </pre>
-    </body>
+    </div>
 </html>

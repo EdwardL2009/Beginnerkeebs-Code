@@ -16,10 +16,32 @@
                 line-height: 1.5;
             }
             body {
-                background-color:#222222
+                background-color: #222222;
+            }
+            .sidenav {
+                width: 200px;
+                height: 100%;
+                background-color: #222222;
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                padding-left: 10px;
+                padding-top: 100px;
+                z-index: 1;
+                color:#222222;
+                overflow: auto
+            }
+            .main {
+                margin-left: 250px;
+            }
+            .banner {
+                margin-left: 200px;
+            }
+            .header {
+                margin-left: 250px;
             }
         </style>
-    <header>
+    <div class="banner">
         <a href="index.html">
             <img src="BeginnerkeebsBanner.png" alt="Beginnerkeebs Banner">
             <style>
@@ -29,7 +51,7 @@
             }
             </style>
         </a>
-    </header>
+    </div>
     </head>
     <div class="sidenav">
         <a href="index.html" style="color:#FFFFFF">Home</a>
@@ -56,11 +78,11 @@
     </div>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <hr/>
-    <wrapper>
+    <div class="header">
         <h1 style="color:#FFFFFF">Keyboard Sizes</h1>
-    </wrapper>
+    </div>
     <hr/>
-    <body>
+    <div class="main">
         <img src="sizes.jpg" alt="Keyboard Sizes" style="float:right;height:500px; width:auto">
         <p style="color:#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are a plethora of sizes and layouts available for keyboards. The most common layout is the 100%. This is your standard keyboard with 108 keys. An example would be the Akko 5108S keyboard.</p>
         <p style="color:#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next would be the TKL, which stands for ten-key-less. This is also sometimes referred to as 87%. This retains all the basic keys, such as the function keys and arrow keys, but doesn&#8217;t include the number pad. Most people do not use the number pad, so they purchase this to save space. Examples include the Tiger 80 Lite and the CIY X77.</p>
@@ -72,5 +94,5 @@
         <p style="color:#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40% usually comes in multiple styles. There is the option for Ortholinear layouts or standard QWERTY. Ortholinear layouts are unique in which all the keys are stacked in perfect rows and columns, whereas QWERTY layouts have the standard layout, minus the number row.</p>
         <p style="color:#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, there are macro pads. These are very small and are just used as programmed buttons for specific tasks.</p>
         <p style="color:#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These are all the standard layouts and most common. There are several more unique layouts that are interesting, such as >100% keyboards and more, but those are rare to see. There is no <q>best</q> size, as it is all personal preference. However, people tend to consider 65%-75% the sweet spot.</p>
-    </body>
+    </div>
 </html>

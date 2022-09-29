@@ -16,10 +16,32 @@
                 line-height: 1.5;
             }
             body {
-                background-color:#222222
+                background-color: #222222;
+            }
+            .sidenav {
+                width: 200px;
+                height: 100%;
+                background-color: #222222;
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                padding-left: 10px;
+                padding-top: 100px;
+                z-index: 1;
+                color:#222222;
+                overflow: auto
+            }
+            .main {
+                margin-left: 250px;
+            }
+            .banner {
+                margin-left: 200px;
+            }
+            .header {
+                margin-left: 250px;
             }
         </style>
-    <header>
+    <div class="banner">
         <a href="index.html">
             <img src="BeginnerkeebsBanner.png" alt="Beginnerkeebs Banner">
             <style>
@@ -29,7 +51,7 @@
             }
             </style>
         </a>
-    </header>
+    </div>
     </head>
     <div class="sidenav">
         <a href="index.html" style="color:#FFFFFF">Home</a>
@@ -56,14 +78,14 @@
     </div>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <hr/>
-    <wrapper>
+    <div class="header">
         <h1 style="color:#FFFFFF">PCBs</h1>
-    </wrapper>
+    </div>
     <hr/>
-    <body>
+    <div class="main">
     <p style="color:#FFFFFF">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There's not much to talk about PCBs, but I will cover the basics. There are two main types, soldered and hot-swappable. Most custom keyboard kits come with hot swappable PCBs for enthusiasts to easily add the switches they want. Some still offer soldered PCBs but hot swappable PCBs are the norm. Next, PCBs have different thicknesses and some have flex-cuts. These types of PCBs help the typing experience to be more "bouncy". These kinds are usually found on gasket mounted keyboards, as they help to provide more flex. Soldered PCBs require the user to use a soldering iron to attach the switches. When enthusiasts get far into the mechanical keyboard hobby, they may even forgo the PCB and hand-wire the switches using copper wire.
     </p>
-    </body>
+    </div>
 </html>
 
