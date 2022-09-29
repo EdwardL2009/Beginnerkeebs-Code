@@ -16,10 +16,32 @@
                 line-height: 1.5;
             }
             body {
-                background-color:#222222
+                background-color: #222222;
+            }
+            .sidenav {
+                width: 200px;
+                height: 100%;
+                background-color: #222222;
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                padding-left: 10px;
+                padding-top: 100px;
+                z-index: 1;
+                color:#222222;
+                overflow: auto
+            }
+            .main {
+                margin-left: 250px;
+            }
+            .banner {
+                margin-left: 200px;
+            }
+            .header {
+                margin-left: 250px;
             }
         </style>
-    <header>
+    <div class="banner">
         <a href="index.html">
             <img src="BeginnerkeebsBanner.png" alt="Beginnerkeebs Banner">
             <style>
@@ -29,7 +51,7 @@
             }
             </style>
         </a>
-    </header>
+    </div>
     </head>
     <div class="sidenav">
         <a href="index.html" style="color:#FFFFFF">Home</a>
@@ -56,11 +78,11 @@
     </div>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <hr/>
-    <wrapper>
+    <div class="header">
         <h1 style="color:#FFFFFF">Switch Recommendations</h1>
-    </wrapper>
+    </div>
     <hr/>
-    <body>
+    <div class="main">
         <h2 style="color:#FFFFFF">Linears:</h2>
         <h3 style="color:#FFFFFF">Budget Linears:</h3>
         <p style="color:#FFFFFF">Akko Rose Reds, Jwick Black, Gateron G Pro Yellow, TTC Kang Whites, Akko Jelly Black</p>
@@ -75,6 +97,6 @@
         <p style="color:#FFFFFF">Don't get clicky.</p>
         <p style="color:#FFFFFF">If absolutely necessary:</p>
         <p style="color:#FFFFFF">Kailh Box White or Jade</p>
-    </body>
+    </div>
 </html>
 
